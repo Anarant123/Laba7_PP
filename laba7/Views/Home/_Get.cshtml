@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Get";
+}
+<div>
+    <form method="post">
+        <h1 align = "center">Вывод данных об участниках</h1>
+        <div>
+            <label>Выберите атрибут сортировки:</label>
+            <div>
+                <input class="inp" type="radio" name="sort" value="Id">Id</><br />
+                <input class="inp" type="radio" name="sort" value="имя">Имя</><br />
+                <input class="inp" type="radio" name="sort" value="возраст">Возраст</><br />
+                <input class="inp" type="radio" name="sort" value="город">Город</><br />
+            </div>
+            <div class="blok">
+                <input class="inp" type="submit" value="Выбрать"/>
+            </div>
+        </div>
+    </form>
+</div>

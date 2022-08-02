@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Get";
+}
+<div>
+    <form method="post">
+        <h1 align = "center">Вывод данных об участниках</h1>
+        <div>
+            <div class="blok">Введите @ViewBag.Sort:</div>
+            <div class="blok">
+                <input class="inp" type="text" name="Name" value="">
+            </div>
+            <div class="blok">
+                <input class="inp" type="submit" value="Выбрать"/>
+            </div>
+            <lable>@ViewBag.Name @ViewBag.Age @ViewBag.Birthday @ViewBag.Phone @ViewBag.Email @ViewBag.City</lable>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Delete";
+}
+<div>
+    <form method="post">
+        <h1 align = "center">Удаление участников</h1>
+        <div>
+            <div class="blok">Введите Id:</div>
+            <div class="blok">
+                <input class="inp" type="text" name="Id" value="@ViewBag.Id">
+            </div>
+            <div class="blok">
+                <input class="inp" type="submit" value="Удалить"/>
+            </div>
+            <div class="blok">
+                <label>@ViewBag.ResultDelete</label>
+            </div>
+        </div>
+    </form>
+</div>

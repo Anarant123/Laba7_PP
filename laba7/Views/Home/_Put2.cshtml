@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Put";
+}
+<div>
+    <form method="post">
+        <h1 align = "center">Введите данные участника</h1>
+        <div>
+            <div class="blok">Имя:</div>
+            <div class="blok">
+                <input class="inp" type="text" name="Name" value="@ViewBag.Name">
+            </div>
+            <div class="blok">Возраст:</div>
+            <div class="blok">
+                <input class="inp" type="text" name="Age" value="@ViewBag.Age">
+            </div>
+            <div class="blok">Дата Рождения:</div>
+            <div class="blok">
+                <input class="inp" type="text" name="Birthday" value="@ViewBag.Birthday">
+            </div>
+            <div class="blok">Телефон:</div>
+            <div class="blok">
+                <input class="inp" type="text" name="Phone" value="@ViewBag.Phone">
+            </div>
+            <div class="blok">Почта:</div>
+            <div class="blok">
+                <input class="inp" type="text" name="Email" value="@ViewBag.Email">
+            </div>
+            <div class="blok">Город:</div>
+            <div class="blok">
+                <input class="inp" type="text" name="City" value="@ViewBag.City">
+            </div>
+            <div class="blok">
+                <input class="inp" type="submit" value="Изменить данные"/>
+            </div>
+        </div>
+    </form>
+</div>
